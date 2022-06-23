@@ -1,27 +1,16 @@
 {
-  "name": "ts",
+  "name": "todo-proj",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:build": "tsc -w",
-    "start:run": "nodemon todo-proj/build/index.js",
+    "start:run": "nodemon build/index.js",
     "start": "concurrently npm:start:*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mirazer0/ts.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mirazer0/ts/issues"
-  },
-  "homepage": "https://github.com/mirazer0/ts#readme",
   "dependencies": {
     "concurrently": "^7.2.2",
     "nodemon": "^2.0.16"
